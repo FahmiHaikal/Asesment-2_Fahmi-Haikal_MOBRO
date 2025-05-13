@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Haus</string>
+    <string name="list_kosong">Belum ada data</string>
+    <string name="x_diklik" translatable="false">%1$s diklik</string>
+    <string name="haus">Haus</string>
+    <string name="nama">Nama</string>
+    <string name="harga">Harga</string>
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+    <string name="menu">Daftar Menu</string>
+    <string name="data">Data Minuman</string>
+    <string name="edit_minuman">Ubah Minuman</string>
+    <string name="invalid">Nama, nim, dan kelas tidak boleh kosong.</string>
+    <string name="lainnya">Opsi lainnya</string>
+    <string name="hapus">Hapus data Minuman</string>
+    <string name="hapus_data">Hapus data minuman?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="tambah_catatan">Tambah catatan</string>
+    <string name="tambah_error">Belum bisa tambah catatan.</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Aplikasi Haus merupakan sebuah aplikasi android untuk
+    memesan minuman sehingga seseorang dapat memesan minuman dengan mudah. \n \nAplikasi ini dibuat untuk
+    membantu seseorang dengan mudah. \n\nCopyright © 2025 Fahmi Haikal. \nAll rights
+    reserved.</string>
+    <string name="name">Name</string>
+    <string name="kopi">Kopi</string>
+    <string name="jus">Jus</string>
+    <string name="quantity" translatable="false">Quantity</string>
+    <string name="price" translatable="false">Price</string>
+    <string name="kategori">Kategori</string>
+    <string name="outputtext">OutputText</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="bagikan_template" translatable="false">Nama Minuman: %1\$s Harga Minuman: %2\$s Jenis Minuman: %3\$s </string>
+    <string name="bagikan_data" translatable="false">Nama Minuman: %1\$s Jenis Minuman: %2\$s</string>
+</resources>
