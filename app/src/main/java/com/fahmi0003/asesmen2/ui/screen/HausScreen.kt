@@ -156,22 +156,21 @@ fun HausScreen() {
 
         Button(
             onClick = {
-                if ((kopi || jus) && quantity == 0) {
-                    outputText = "Mohon pilih jumlah minuman terlebih dahulu."
-                }else {
-                    nameError = (name == "" || name == "0")
-                    if (nameError) {
-                        outputText = "Mohon masukkan pilihan minuman anda dengan benar."
-                    } else {
+                when {
+                    (!kopi && !jus) -> {
+                        outputText = "Mohon pilih minimal satu minuman."
+                    }
+                    (quantity <= 0) -> {
+                        outputText = "Mohon pilih jumlah minuman terlebih dahulu."
+                    }
+                    else -> {
                         val kopiText = if (kopi) " Kopi" else ""
                         val jusText = if (jus) " Jus" else ""
                         outputText =
-                            "Pesanan Anda $name dengan jumlah $quantity $kopiText$jusText seharga Rp.$price telah berhasil!"
+                            "Pesanan Anda $quantity $kopiText$jusText seharga Rp.$price telah berhasil!"
                     }
                 }
-
             },
-
             modifier = Modifier.align(Alignment.CenterHorizontally)
         ) {
             Text("PESAN SEKARANG")
